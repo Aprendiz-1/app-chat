@@ -108,9 +108,9 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: '#fff',
     backgroundColor: '#555',
-    borderRadius: 8,
+    borderRadius: 30,
     paddingHorizontal: 10,
-    marginBottom: 15,
+    marginBottom: 20,
   },
   button: {
     width: '92%',
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#4a06a1',
-    borderRadius: 8,
+    borderRadius: 30,
   },
   buttonText: {
     fontSize: 20,

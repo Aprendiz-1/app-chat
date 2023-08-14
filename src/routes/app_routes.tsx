@@ -11,32 +11,12 @@ export default function Routes() {
   return (
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions={{
-        headerStyle: {
-          height: 65,
-          backgroundColor: '#4a06a1',
-        },
-        headerTintColor: '#fff',
-      }}>
+      screenOptions={{headerShown: false}}>
       <Stack.Screen name="Cadastro" component={SignUp} />
       <Stack.Screen name="Login" component={SignIn} />
-      <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Messages"
-        component={Messages}
-        options={({route}) => ({
-          title: route.params.thread.name,
-        })}
-      />
-      <Stack.Screen
-        name="Search"
-        component={Search}
-        options={{title: 'Procurar grupos'}}
-      />
+      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Messages" component={Messages} />
+      <Stack.Screen name="Search" component={Search} />
     </Stack.Navigator>
   );
 }

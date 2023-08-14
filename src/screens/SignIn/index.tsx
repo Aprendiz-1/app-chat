@@ -2,7 +2,9 @@ import {useNavigation} from '@react-navigation/native';
 import React, {useState} from 'react';
 import {
   Image,
+  KeyboardAvoidingView,
   SafeAreaView,
+  StatusBar,
   StyleSheet,
   Text,
   TextInput,
@@ -10,6 +12,7 @@ import {
   View,
 } from 'react-native';
 import auth from '@react-native-firebase/auth';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
@@ -33,42 +36,44 @@ export default function SignIn() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.topContent}>
-        <Image
-          source={require('../../assets/chat_logo.png')}
-          style={{width: 200, height: 180}}
-        />
-      </View>
+      <StatusBar backgroundColor="#333" barStyle="light-content" />
+      <KeyboardAvoidingView behavior="height" style={{flex: 1}}>
+        <View style={styles.inputsContent}>
+          <Image
+            source={require('../../assets/logo_chat.png')}
+            style={{width: 180, height: 235, marginBottom: 50}}
+          />
 
-      <View style={styles.inputsContent}>
-        <TextInput
-          placeholder="Digite seu e-mail"
-          keyboardType="email-address"
-          value={email}
-          onChangeText={e => setEmail(e)}
-          style={styles.input}
-        />
+          <TextInput
+            placeholder="Digite seu e-mail"
+            keyboardType="email-address"
+            value={email}
+            onChangeText={e => setEmail(e)}
+            style={styles.input}
+          />
 
-        <TextInput
-          placeholder="Digite sua senha"
-          secureTextEntry={true}
-          value={password}
-          onChangeText={e => setPassword(e)}
-          style={styles.input}
-        />
+          <TextInput
+            placeholder="Digite sua senha"
+            secureTextEntry={true}
+            value={password}
+            onChangeText={e => setPassword(e)}
+            style={styles.input}
+          />
 
-        <TouchableOpacity onPress={login} style={styles.button}>
-          <Text style={styles.buttonText}>Entrar</Text>
-        </TouchableOpacity>
+          <TouchableOpacity onPress={login} style={styles.button}>
+            <Text style={styles.buttonText}>Entrar</Text>
+          </TouchableOpacity>
+        </View>
 
-        <TouchableOpacity
-          onPress={() => navigation.navigate('Cadastro')}
-          style={styles.linkButton}>
-          <Text style={styles.linkText}>
-            Não possui uma conta? Cadastre-se!
-          </Text>
-        </TouchableOpacity>
-      </View>
+        <View style={styles.bottomContent}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate('Cadastro')}
+            style={styles.registerButton}>
+            <Text style={styles.registerText}>Cadastrar</Text>
+            <AntDesign name="arrowright" size={25} color="#fff" />
+          </TouchableOpacity>
+        </View>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
@@ -78,51 +83,56 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#121212',
   },
-  topContent: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   inputsContent: {
-    flex: 1,
     width: '100%',
     alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#333',
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    paddingTop: 40,
+    borderBottomLeftRadius: 40,
+    borderBottomRightRadius: 40,
+    paddingVertical: 80,
   },
   input: {
-    width: '92%',
+    width: '89%',
     height: 50,
     fontSize: 15,
     color: '#fff',
     backgroundColor: '#555',
-    borderRadius: 8,
-    paddingHorizontal: 10,
-    marginBottom: 10,
+    borderRadius: 25,
+    paddingHorizontal: 18,
+    marginBottom: 14,
   },
   button: {
-    width: '92%',
-    height: 50,
+    width: '89%',
+    height: 54,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#5a1fa7',
-    borderRadius: 8,
-    marginTop: 5,
+    borderRadius: 30,
+    marginTop: 10,
   },
   buttonText: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#fff',
   },
-  linkButton: {
+  bottomContent: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 10,
   },
-  linkText: {
-    fontSize: 14,
+  registerButton: {
+    width: 152,
+    height: 46,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#5a1fa7',
+    borderRadius: 25,
+  },
+  registerText: {
+    fontSize: 16,
     color: '#fff',
+    marginRight: 5,
   },
 });

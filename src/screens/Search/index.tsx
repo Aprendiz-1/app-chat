@@ -8,6 +8,7 @@ import {
   StyleSheet,
   Keyboard,
   FlatList,
+  StatusBar,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import auth from '@react-native-firebase/auth';
@@ -67,6 +68,7 @@ export default function Search() {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar backgroundColor="#121212" barStyle="light-content" />
       <View style={styles.inputContent}>
         <TextInput
           placeholder="Digite aqui"
@@ -97,21 +99,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#121212',
   },
   inputContent: {
-    width: '100%',
     height: 54,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 10,
-    marginTop: 20,
+    backgroundColor: '#333',
+    borderRadius: 30,
+    marginTop: 30,
     marginBottom: 20,
+    marginHorizontal: 16,
   },
   input: {
     flex: 1,
     height: '100%',
-    backgroundColor: '#333',
-    paddingHorizontal: 10,
-    borderTopLeftRadius: 6,
-    borderBottomLeftRadius: 6,
+    paddingHorizontal: 15,
   },
   searchButton: {
     width: 54,
@@ -119,7 +119,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#4a06a1',
-    borderTopRightRadius: 6,
-    borderBottomRightRadius: 6,
+    borderRadius: 30,
   },
 });

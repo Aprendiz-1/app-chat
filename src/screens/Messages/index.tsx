@@ -6,8 +6,10 @@ import {
   SafeAreaView,
   TextInput,
   TouchableOpacity,
+  Text,
   View,
   StyleSheet,
+  StatusBar,
 } from 'react-native';
 import firestore, {
   FirebaseFirestoreTypes,
@@ -15,7 +17,8 @@ import firestore, {
 import auth from '@react-native-firebase/auth';
 import Icon from 'react-native-vector-icons/Ionicons';
 import CardMessage from '../../components/CardMessage';
-import {RouteProp} from '@react-navigation/native';
+import {RouteProp, useNavigation} from '@react-navigation/native';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 type UserProps = {
   uid: string;
@@ -49,6 +52,7 @@ export default function Messages({route}: ScreenProps) {
   const [messages, setMessages] = useState<Array<MessagesProps>>([]);
   const [messageText, setMessageText] = useState('');
   const user = auth().currentUser?.toJSON() as UserProps;
+  const navigation = useNavigation();
 
   useEffect(() => {
     function loadMessages() {
@@ -120,6 +124,15 @@ export default function Messages({route}: ScreenProps) {
 
   return (
     <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <View style={{flexDirection: 'row'}}>
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <AntDesign name="arrowleft" size={25} color="#fff" />
+          </TouchableOpacity>
+          <Text style={styles.title}>{thread.name}</Text>
+        </View>
+      </View>
+
       <FlatList
         style={{width: '100%'}}
         data={messages}
@@ -152,15 +165,31 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#121212',
   },
+  header: {
+    width: '100%',
+    height: 80,
+    justifyContent: 'center',
+    backgroundColor: '#4a06a1',
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    paddingHorizontal: 15,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginLeft: 10,
+  },
   inputContent: {
     width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#333',
-    borderRadius: 30,
   },
   input: {
     flex: 1,
+    height: 55,
+    backgroundColor: '#333',
+    borderRadius: 30,
     paddingHorizontal: 15,
   },
   sendButton: {
@@ -170,5 +199,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#4a06a1',
     borderRadius: 30,
+    marginLeft: 8,
   },
 });

@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     fontWeight: 'bold',
-    color: '#9145f5',
+    color: '#9968d8',
   },
   messageText: {
     color: '#fff',
