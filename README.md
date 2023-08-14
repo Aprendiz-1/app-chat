@@ -1,17 +1,13 @@
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 19](https://github.com/Aprendiz-1/app-chat/assets/82540579/c8eb9722-e888-4275-8adf-4b938f9bc836)
+![IMG-20230814-WA0006](https://github.com/Aprendiz-1/app-chat/assets/82540579/229eaa7a-024f-4b4a-9463-b58f5483be5d)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 20](https://github.com/Aprendiz-1/app-chat/assets/82540579/61f3fe71-716a-43b2-be76-e026bd825faf)
+![IMG-20230814-WA0005](https://github.com/Aprendiz-1/app-chat/assets/82540579/2315fad4-146a-4470-9490-9b80dc9ab893)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 21](https://github.com/Aprendiz-1/app-chat/assets/82540579/f7ed58fd-f9ac-489e-9e01-2cb1e8eee2b3)
+![IMG-20230814-WA0007](https://github.com/Aprendiz-1/app-chat/assets/82540579/ac046e26-a853-4eab-b06d-b0604f2446ec)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 22](https://github.com/Aprendiz-1/app-chat/assets/82540579/baa762be-ba2f-4388-a6cc-ff6ffef472d2)
+![IMG-20230814-WA0009](https://github.com/Aprendiz-1/app-chat/assets/82540579/b061d76b-6f8d-4318-be95-69a8a1dec163)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 23](https://github.com/Aprendiz-1/app-chat/assets/82540579/b1b6a467-0d42-4713-ba85-af1eadaadeba)
+![IMG-20230814-WA0008](https://github.com/Aprendiz-1/app-chat/assets/82540579/2ccfef66-21c8-4652-9229-34248e73087b)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 24](https://github.com/Aprendiz-1/app-chat/assets/82540579/611ea31e-0737-4055-bbe0-05bf4bc2723e)
+![IMG-20230814-WA0011](https://github.com/Aprendiz-1/app-chat/assets/82540579/50cd8c7f-8fa2-470b-b80c-16027c68deb0)
 
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 25](https://github.com/Aprendiz-1/app-chat/assets/82540579/1f13b18c-b6f1-4d89-9ffc-750779952324)
-
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 26](https://github.com/Aprendiz-1/app-chat/assets/82540579/bf639a94-16cd-41b2-8513-2ffd868499f8)
-
-![Imagem do WhatsApp de 2023-06-14 à(s) 14 24 27](https://github.com/Aprendiz-1/app-chat/assets/82540579/62bf4a35-bf47-4105-9efe-249150d51a0b)
+![IMG-20230814-WA0010](https://github.com/Aprendiz-1/app-chat/assets/82540579/3f5d686c-3fca-4a3e-8a3d-ca860c69b145)
