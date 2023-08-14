@@ -1,13 +1,13 @@
-![IMG-20230814-WA0006](https://github.com/Aprendiz-1/app-chat/assets/82540579/229eaa7a-024f-4b4a-9463-b58f5483be5d)
+![IMG-20230814-WA0006](https://github.com/Aprendiz-1/app-chat/assets/82540579/6e10f2ef-cd2e-4359-80f3-d051a62debef)
 
-![IMG-20230814-WA0005](https://github.com/Aprendiz-1/app-chat/assets/82540579/2315fad4-146a-4470-9490-9b80dc9ab893)
+![IMG-20230814-WA0005](https://github.com/Aprendiz-1/app-chat/assets/82540579/659e274d-7f63-47fa-8400-e40849a5055f)
 
-![IMG-20230814-WA0007](https://github.com/Aprendiz-1/app-chat/assets/82540579/ac046e26-a853-4eab-b06d-b0604f2446ec)
+![IMG-20230814-WA0007](https://github.com/Aprendiz-1/app-chat/assets/82540579/6f054f81-335f-408d-8e8f-698d5b71eab7)
 
-![IMG-20230814-WA0009](https://github.com/Aprendiz-1/app-chat/assets/82540579/b061d76b-6f8d-4318-be95-69a8a1dec163)
+![IMG-20230814-WA0009](https://github.com/Aprendiz-1/app-chat/assets/82540579/1cccce0b-b254-457d-ae9a-5f34c7c94e51)
 
-![IMG-20230814-WA0008](https://github.com/Aprendiz-1/app-chat/assets/82540579/2ccfef66-21c8-4652-9229-34248e73087b)
+![IMG-20230814-WA0008](https://github.com/Aprendiz-1/app-chat/assets/82540579/d58f6078-7251-4235-9f11-1cf05b4271c7)
 
-![IMG-20230814-WA0011](https://github.com/Aprendiz-1/app-chat/assets/82540579/50cd8c7f-8fa2-470b-b80c-16027c68deb0)
+![IMG-20230814-WA0011](https://github.com/Aprendiz-1/app-chat/assets/82540579/c99e3115-a2dd-42d1-a28e-f7208565437e)
 
-![IMG-20230814-WA0010](https://github.com/Aprendiz-1/app-chat/assets/82540579/3f5d686c-3fca-4a3e-8a3d-ca860c69b145)
+![IMG-20230814-WA0010](https://github.com/Aprendiz-1/app-chat/assets/82540579/7393120c-687c-44fd-a1b6-24b9ead970c2)
